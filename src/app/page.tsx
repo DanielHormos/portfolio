@@ -1,3 +1,9 @@
+import { ProfilePicture } from "../features/profile-picture/ProfilePicture";
+
 export default function Home() {
-  return <h1>Portfolio</h1>;
+  return (
+    <>
+      <ProfilePicture />
+    </>
+  );
 }
