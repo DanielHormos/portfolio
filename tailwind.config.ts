@@ -10,7 +10,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
+        customBlack: "rgba(13, 17, 23, 1)",
         foreground: "var(--foreground)",
       },
     },
