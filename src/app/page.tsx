@@ -1,9 +1,9 @@
-import { Profile } from "../features/profile/index";
+import Main from "@/features/main/Main";
 
 export default function Home() {
   return (
     <>
-      <Profile />
+      <Main />
     </>
   );
 }
