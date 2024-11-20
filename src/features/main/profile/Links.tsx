@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -20,14 +22,14 @@ export function Links() {
       >
         <FaGithub size={24} className="hover:text-gray-600" />
       </Link>
-
-      <Link
-        href="mailto:daniel.hormos@example.com"
-        target="_blank"
-        rel="noopener noreferrer"
+      <div
+        onClick={() => {
+          navigator.clipboard.writeText("Daniel.Hormos@outlook.com");
+          alert("Copied mail to clipboard!");
+        }}
       >
         <MdEmail size={24} className="hover:text-gray-800" />
-      </Link>
+      </div>
       <Link href="/resume.pdf" target="_blank" rel="noopener noreferrer">
         <AiFillFilePdf size={24} className="hover:text-red-500" />
       </Link>
