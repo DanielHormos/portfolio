@@ -20,7 +20,7 @@ export function Links() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FaGithub size={24} className="hover:text-gray-600" />
+        <FaGithub size={24} className="hover:text-gray-400" />
       </Link>
       <div
         onClick={() => {
@@ -28,7 +28,7 @@ export function Links() {
           alert("Copied mail to clipboard!");
         }}
       >
-        <MdEmail size={24} className="hover:text-gray-800" />
+        <MdEmail size={24} className="hover:text-gray-400" />
       </div>
       <Link href="/resume.pdf" target="_blank" rel="noopener noreferrer">
         <AiFillFilePdf size={24} className="hover:text-red-500" />
