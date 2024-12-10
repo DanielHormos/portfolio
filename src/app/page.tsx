@@ -1,9 +1,13 @@
-import Main from "@/features/main/Main";
+import { AboutMe } from "../features/main";
+import { Profile } from "../features/main";
+import { Skills } from "@/features/main/skills";
 
 export default function Home() {
   return (
     <>
-      <Main />
+      <Profile />
+      <AboutMe />
+      <Skills />
     </>
   );
 }
